@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" type="text/css" href="{% static 'crossmedia/style.css' %}" />
+    <title>Welcome to CrossMedia</title>
+</head>
+<body>
+<h1>
+    Cross Media
+</h1>
+<div id="detailsDiv">
+    <pre>
+        Socialize with people and the
+        world around you on CrossMedia
+    </pre>
+    <ul style="list-style-type: none;">
+        <li><b>Create and share events </b> with your friends and relatives</li> <br/>
+        <li><b> Create groups</b> share the common interests and topics</li>
+    </ul>
+</div>
+<div id="loginDiv">
+<form action="user_login" method="">
+ <label> Username</label>
+ <input type="text" name="username" id="username" placeholder="Username" required/> <br/><br/>
+ <label>Password</label>
+ <input type="text" name="password" id="password" placeholder="password" required/> <br/><br/>
+ <div id="submit"><input type="submit"  value="Submit" style=""/></div>
+    </form>
+ </div>
+</body>
+</html>

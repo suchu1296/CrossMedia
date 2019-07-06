@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+     <link rel="stylesheet" type="text/css" href="{% static 'crossmedia/style.css' %}" />
+    <meta charset="UTF-8">
+    <title>Welcome to CrossMedia</title>
+</head>
+<body>
+<h1>
+    <div id="search">
+        <input type="text" name="search" id="search" placeholder="search" />
+        <input class="welButton1" type="button" value="profile"/>
+        <input class="welButton" type="button" value="home"/>
+        <input class="welButton" type="button" value="create"/>
+        <input class="welButton" type="button" value="friends_list"/>
+        <input class="welButton" type="button" value="notifications"/>
+        <input class="welButton" type="button" value="help"/>
+        <input class="welButton" type="button" value="logout"/>
+    </div>
+</h1>
+ <nav>
+     <div class="navlist1"><a href="">Groups</a></div>
+     <div class="navlist"><a href="">Events</a></div>
+     <div class="navlist"><a href="">Friend Requests</a></div>
+     <div class="navlist"><a href="">Weather</a></div>
+ </nav>
+  <section class="infoSection">
+      Events and posts to be displayed
+  </section>
+</body>
+</html>
