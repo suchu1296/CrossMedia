@@ -1,0 +1,70 @@
+h1{
+    background-color: blueviolet;
+    text-decoration-color: aqua;
+    font-size: 30px;
+    margin: -8px -8px 0px;
+    padding-top:12px;
+    color:lime;
+}
+body{
+    background-color: lavender;
+}
+
+#detailsDiv{
+    float: left;
+    padding-left:230px;
+    margin-top:96px;
+}
+
+#loginDiv{
+    float: right;
+    margin-top:114px;
+    padding-right: 375px;
+}
+
+pre{
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#outerDiv{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.my-class{
+    padding: 30px;
+}
+
+#submit{
+    padding-left:90px;
+}
+
+#search{
+    padding-bottom: 8px;
+    padding-left: 15px;
+}
+
+.welButton{
+    border-radius: 50%;
+    width: 8%;
+}
+
+.welButton1{
+    border-radius: 50%;
+    width: 8%;
+    margin-left: 116px;
+}
+
+.navlist{
+    margin-top: 30px;
+}
+
+.navlist1{
+    margin-top: 10px;
+}
+
+.infoSection{
+    margin-left: 37%;
+    margin-top: -4%;
+}
